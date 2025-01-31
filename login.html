@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-register-container">
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+    </div>
+
+    <div id="loginBox" class="login-box hidden">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="user-box">
+                <input type="text" name="login-username" id="login-username" required>
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="login-password" id="login-password" required>
+                <label><span></span> Password</label>
+            </div>
+            <a href="first.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <button type="submit">Submit</button>
+            </a>
+        </form>
+    </div>
+
+    <div id="registerBox" class="login-box hidden">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <div class="user-box">
+                <input type="text" name="register-username" id="register-username" required>
+                <label>Username</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="register-password" id="register-password" required>
+                <label>Password</label>
+            </div>
+            <div class="user-box">
+                <input type="password" name="confirm-password" id="confirm-password" required>
+                <label>Confirm Password</label>
+            </div>
+            <a href="#">
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <button type="submit">Submit</button>
+                </a>
+        </form>
+            
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
